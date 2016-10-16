@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_HNDrcJPgEeavLKQ1nhjzsg" name="WellandTransitStops" dataPackage="_HNLAMJPgEeavLKQ1nhjzsg" Server="Localhost 127.0.0.1" FilePath="/home/maira/Desktop/TalendDemo/city-of-welland-transit-stops.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="Active_Transit_Stops_Table_2" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" selectAllSheets="true" sheetList="Active_Transit_Stops_Table_2:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+    <sheetColumns>G</sheetColumns>
+    <sheetColumns>H</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_HNLAMJPgEeavLKQ1nhjzsg" name="default" dataManager="_HNDrcJPgEeavLKQ1nhjzsg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_HNLAMZPgEeavLKQ1nhjzsg" id="_VzUmsJPfEeavLKQ1nhjzsg" label="metadata-wellandtransitstops">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HNLAMpPgEeavLKQ1nhjzsg" label="Stop_Id" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HNLAM5PgEeavLKQ1nhjzsg" label="Stop_Seq" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HNLANJPgEeavLKQ1nhjzsg" label="Route" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HNLANZPgEeavLKQ1nhjzsg" label="Address" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HNLANpPgEeavLKQ1nhjzsg" label="Intersect" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HNLAN5PgEeavLKQ1nhjzsg" label="Loc_id" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_HNVYQJPgEeavLKQ1nhjzsg" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HNVYQZPgEeavLKQ1nhjzsg" label="Lon" precision="14" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HNVYQpPgEeavLKQ1nhjzsg" label="Lat" precision="14" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

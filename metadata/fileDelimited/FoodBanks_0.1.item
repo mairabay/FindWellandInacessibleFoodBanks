@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_bQwqUJPgEeavLKQ1nhjzsg" name="FoodBanks" dataPackage="_bQwqUZPgEeavLKQ1nhjzsg" Server="Localhost 127.0.0.1" FilePath="/home/maira/Desktop/TalendDemo/foodbanks.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_bQwqUZPgEeavLKQ1nhjzsg" name="default" dataManager="_bQwqUJPgEeavLKQ1nhjzsg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_bQwqUpPgEeavLKQ1nhjzsg" id="_JGWIUJPgEeavLKQ1nhjzsg" label="metadata-foodbanks">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_bQwqU5PgEeavLKQ1nhjzsg" label="UniqueID" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_bQwqVJPgEeavLKQ1nhjzsg" label="Organization" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_bQwqVZPgEeavLKQ1nhjzsg" label="Address" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_bQwqVpPgEeavLKQ1nhjzsg" label="Unit" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_bQwqV5PgEeavLKQ1nhjzsg" label="NBH_ID" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_bQwqWJPgEeavLKQ1nhjzsg" label="Municipality" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_bQwqWZPgEeavLKQ1nhjzsg" label="LONGITUDE" precision="14" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_bQwqWpPgEeavLKQ1nhjzsg" label="LATITUDE" precision="14" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
